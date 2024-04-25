@@ -65,6 +65,13 @@ a:hover {
     cursor: default;
 }
 
+.subtitle {
+    color: rgb(46, 26, 220);
+    text-decoration: none;
+    text-decoration-color: white;
+    font-size: 14px;
+}
+
 /* HAMBURGER MENU */
 
 #hamburger-nav {
@@ -192,8 +199,16 @@ section {
 .img-grid-item {
     width: 300px;
     height: 200px;
+    display: block;
     border-radius: 1.5px;
     gap: 10px;
+}
+
+.caption {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: black;
 }
 
 .section__text {
@@ -204,6 +219,8 @@ section {
 .section__text p {
     font-weight: 600;
 }
+
+/* ABOUT SECTION */
 
 .section__text__p1 {
     text-align: center;
@@ -219,11 +236,34 @@ section {
     text-align: center;
 }
 
-#socials-container {
+.about-box {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section__pic-container img{
+    width: 375px;
+    height: 250px; 
+    margin: 20px;
+    border-radius: 2px;
+}
+
+.about-details-container {
+    margin: 10px;
+    display: block;
+    width: 600px;
+    margin-bottom: 120px;
+}
+
+/* EXPERIENCE SECTION */
+
+#experience {
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
+    gap: 5rem;
+    height: 95vh;
 }
 
 /* ICONS */
